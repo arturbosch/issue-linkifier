@@ -2,6 +2,16 @@
 
 Generates clickable links above matching string patterns.
 
+## Build
+
+```sh
+yarn
+yarn global add vsce
+vsce package
+```
+
+Use command: `Extensions: Install from VSIX...`
+
 ## Configuration
 
 ```json
